@@ -1,10 +1,12 @@
+'use strict'
+
 const allBooks = document.querySelector('.books');
-let book = document.querySelectorAll('.book');
-let library = document.querySelector('body');
-let fuckingAdvertisement = document.querySelector('.adv');
-let booksLink = document.querySelectorAll('.book h2 a');
-let booksList = document.querySelectorAll('.book ul li')
-let forgottenChapter = document.createElement('li')
+const book = document.querySelectorAll('.book');
+const library = document.querySelector('body');
+const fuckingAdvertisement = document.querySelector('.adv');
+const booksLink = document.querySelectorAll('.book h2 a');
+const booksList = document.querySelectorAll('.book ul li')
+const forgottenChapter = document.createElement('li')
 
 book[1].after(book[0])
 book[4].after(book[3])
